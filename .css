@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    color:rgb(10, 10, 10);
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;}
+    p{text-align: center;
+        color: aliceblue;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;}
+.f{ background-color: rgb(4, 128, 27);
+
+}
+.t{width: 1519.2px;
+height: 200px;
+background-color: rgb(4, 128, 27);
+margin-top: 20px;}
+.h{
+text-align: center;
+background-color: rgb(111, 16, 16);
+margin-left: 500px;
+height: 70px;
+width: 660px;
+
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 50px;
+}
+a{color: aliceblue;
+    margin-top: 50px;
+
+   }
+   .p{color: aliceblue;
+background-color: rgb(11, 11, 95);
+border: 3px solid rgb(5, 5, 125);
+border-radius: 10px 10px 10px 10px ;
+margin-left: 300px;
+margin-right: 200px;
+height: 90px;
+width: 900px;
+margin-top: 20px;
+}
+.s{display: inline;
+margin-top: 200px;
+font-size: 16px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.m{color: black;
+    display: inline;
+}
+.tunis{color: black;
+    font-size: 20px;
+
+background-color: grey;}
+.carthage{
+    color: black;
+    font-size: 20px;
+
+background-color: rgb(45, 45, 94);}
+.sousse{color: black;
+    font-size: 20px;
+background-color: blue;}
+.gabes{color: black;
+    font-size: 20px;
+background-color: orangered;}
+.jandouba{color: black;
+    font-size: 20px;
+background-color: brown;}
+.monastir{color: black;
+    font-size: 20px;
+background-color: rgb(73, 82, 245);}
+.sfax{color: black;
+    font-size: 20px;
+background-color: rgb(4, 168, 4);}
+.ezzitouna{color: black;
+    font-size: 20px;
+background-color: rgb(2, 58, 2);}
+.manouba{color: black;
+    font-size: 20px;
+background-color: rgb(6, 6, 95);}
+.kairaouan{color: black;
+    font-size: 20px;
+background-color: orange;}
+.gafsa{color: black;
+    font-size: 20px;
+background-color: rgb(120, 120, 241);}
+.instituesuperieuredesetudestechnologie{color: black;
+    font-size: 20px;
+background-color: blue;}
+.u{display: inline-block;}
+.m{color: rgb(28, 28, 72);}
+
+.g{size: 90px;
+color: rgb(5, 90, 32);}

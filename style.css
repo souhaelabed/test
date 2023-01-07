@@ -1,0 +1,14 @@
+body{
+    border:2px solid black;
+    width: 500px;
+}
+h1{
+    text-align: center;
+}
+button{
+    margin: 10px 5px;
+}
+#butt{
+    display: flex;
+    justify-content: flex-end;
+}

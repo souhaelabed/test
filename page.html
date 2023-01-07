@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Facture</h1>
+    <form method="post" name="data">
+        <table>
+            <tr>
+                <td><label for="product">Code Produit :</label></td>
+                <td>
+                    <select name="product" id="product" onchange="Afficher_produit()">
+                        <option value="">Choisir un produit</option>
+                        <option value="001">001</option>
+                        <option value="002">002</option>
+                        <option value="003">003</option>
+                        <option value="004">004</option>
+                        <option value="005">005</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Libellé : </label></td>
+                <td id="libelle"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Prix HT :</label></td>
+                <td id="prix"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="qte">Quantité :</label>
+                </td>
+                <td>
+                    <input type="number" name="qte" id="qte">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Montant HT :</label>
+                </td>
+                <td id="MHT"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Taux TVA :</label>
+                </td>
+                <td>
+                    <input type="radio" checked value="0.09" name="tva" id="t1">
+                    <label for="t1">9%</label>
+                    <input type="radio" value="0.11" name="tva" id="t2">
+                    <label for="t2">11%</label>
+                    <input type="radio" value="0.19" name="tva" id="t3">
+                    <label for="t3">19%</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Montant TTC :</label>
+                </td>
+                <td id="MTTC"></td>
+            </tr>
+        </table>
+        <div id="butt">
+            <input type="button" value="Effacer" onclick="Efface()">
+            <input type="button" value="Calculer" onclick="Calcul()">
+        </div>
+    </form>
+</body>
+</html>
